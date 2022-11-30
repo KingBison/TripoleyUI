@@ -1,0 +1,52 @@
+.login, .game{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.login div, .game div{
+  text-align: center;
+}
+
+img.board{
+  width:80%;
+} 
+
+.player-data-area{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.player-data{
+  border: solid 2px;
+  margin: 10px;
+}
+
+.player-data h3{
+  display: flex;
+  margin: 0px auto;
+  width: fit-content;
+}
+
+.player-data-row{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+}
+
+.player-data-row div{
+  display: flex;
+  margin: 0px auto;
+}
+
+.chip-icon {
+  height: 30px;
+  margin: auto 0px auto 5px;
+}
+
+.poker-pointer {
+  height: 30px;
+  position: relative;
+  left: -13vw;
+  top: -60px
+
+}
